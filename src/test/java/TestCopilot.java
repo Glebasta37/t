@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import utils.Mission;
 
@@ -8,6 +9,7 @@ public class TestCopilot {
     public static final String BASE_URL = "https://api.spacexdata.com/v3/missions/";
 
     @Test
+    @DisplayName("Апи тест написанный с помощью copilot")
     public void testCopilot() {
         Mission firstMissionInList = given()
                 .when()
