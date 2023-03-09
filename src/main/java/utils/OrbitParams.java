@@ -8,17 +8,17 @@ import java.util.Date;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class OrbitParams {
-    public String reference_system;
-    public String regime;
-    public double longitude;
-    public double semi_major_axis_km;
-    public double eccentricity;
-    public double periapsis_km;
-    public double apoapsis_km;
-    public double inclination_deg;
-    public double period_min;
-    public int lifespan_years;
-    public Date epoch;
-    public double mean_motion;
-    public double raan;
+    private String reference_system;
+    private String regime;
+    private Double longitude;
+    private Double semi_major_axis_km;
+    private Double eccentricity;
+    private Double periapsis_km;
+    private Double apoapsis_km;
+    private Double inclination_deg;
+    private Double period_min;
+    private Integer lifespan_years;
+    private Date epoch;
+    private Double mean_motion;
+    private Double raan;
 }

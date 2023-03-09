@@ -8,20 +8,20 @@ import java.util.ArrayList;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Payload {
-    public String payload_id;
-    public ArrayList<Integer> norad_id;
-    public boolean reused;
-    public ArrayList<String> customers;
-    public String nationality;
-    public String manufacturer;
-    public String payload_type;
-    public double payload_mass_kg;
-    public double payload_mass_lbs;
-    public String orbit;
-    public OrbitParams orbit_params;
-    public String cap_serial;
-    public double mass_returned_kg;
-    public double mass_returned_lbs;
-    public int flight_time_sec;
-    public String cargo_manifest;
+    private String payload_id;
+    private ArrayList<Integer> norad_id;
+    private Boolean reused;
+    private ArrayList<String> customers;
+    private String nationality;
+    private String manufacturer;
+    private String payload_type;
+    private Double payload_mass_kg;
+    private Double payload_mass_lbs;
+    private String orbit;
+    private OrbitParams orbit_params;
+    private String cap_serial;
+    private Double mass_returned_kg;
+    private Double mass_returned_lbs;
+    private Integer flight_time_sec;
+    private String cargo_manifest;
 }
